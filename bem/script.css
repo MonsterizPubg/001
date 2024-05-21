@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+
+.item {
+    background-color: #333;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+}
